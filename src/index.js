@@ -1,0 +1,4 @@
+import './styles/normalize.css';
+import './styles/style.scss';
+
+console.log("pog")
