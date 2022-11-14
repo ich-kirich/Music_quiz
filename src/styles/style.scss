@@ -7,6 +7,20 @@ $whitecolorimg: invert(91%) sepia(41%) saturate(1125%) hue-rotate(190deg) bright
     color: #FFFFFF;
 }
 
+%previewtext {
+    font-size: 50px;
+    line-height: 80px;
+    @media screen and (max-width: 500px) {
+        text-align: center;
+    }
+}
+
+%backimg {
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 100% 100%;
+}
+
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -101,20 +115,13 @@ html, body {
                 &__text {
                     margin: 0;
                     @extend %tpclfontsize;
-                    font-size: 50px;
-                    line-height: 80px;
-                    @media screen and (max-width: 500px) {
-                        text-align: center;
-                    }
+                    @extend %previewtext;
+
                 }
                 &__undertext {
                     margin: 0;
                     @extend %tpclfontsize;
-                    font-size: 50px;
-                    line-height: 60px;
-                    @media screen and (max-width: 500px) {
-                        text-align: center;
-                    }
+                    @extend %previewtext;
                 }
                 .undertext {
                     &__bold {
@@ -129,9 +136,7 @@ html, body {
                 width: 600px;
                 height: 700px;
                 background-image: url(../images/main_pict.jpg);
-                background-repeat: no-repeat;
-                background-position: 0 center;
-                background-size: 100% 100%;
+                @extend %backimg;
                 border-radius: 15px;
                 box-shadow: -1px 1px 25px -1px #000000;
                 @media screen and (max-width: 1000px) {
@@ -152,10 +157,8 @@ html, body {
         width: 100%;
         height: 150px;
         align-self: center;
-        background: url(../images/musicnotes.gif);
-        background-repeat: no-repeat;
-        background-position: 0 center;
-        background-size: 100% 100%;
+        background-image: url(../images/musicnotes.gif);
+        @extend %backimg;
     }
 }
 
@@ -177,9 +180,7 @@ html, body {
             width: 100px;
             height: 30px;
             background-image: url(../images/rs_school.svg);
-            background-repeat: no-repeat;
-            background-position: 0 center;
-            background-size: 100% 100%;
+            @extend %backimg;
             filter: $whitecolorimg;
             transition: opacity 0.7s;
             &:hover {
@@ -192,9 +193,7 @@ html, body {
             width: 30px;
             height: 30px;
             background-image: url(../images/github.svg);
-            background-repeat: no-repeat;
-            background-position: 0 center;
-            background-size: 100% 100%;
+            @extend %backimg;
             filter: $whitecolorimg;
             transition: opacity 0.7s;
             &:hover {
