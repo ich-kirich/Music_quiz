@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Music Quiz</title>
 </head>
 <body>
-    <h2>as2</h2>
-    <a href="./index.html">На первую страницу</a>
+    <main class="main">
+        <div class="main__container">
+            <div class="main__panel-top panel-top">
+                <div class="panel-top__logo">&nbsp;</div>
+                <div class="panel-top__score-wrap">
+                    <p class="panel-top__score">Score: 0</p>
+                </div>
+            </div>
+            <div class="main__questions questions">
+                <div class="questions__item">
+                    <p class="questions__type-question">Warm-up</p>
+                </div>
+                <div class="questions__item">
+                    <p class="questions__type-question">The 70-s</p>
+                </div>
+                <div class="questions__item">
+                    <p class="questions__type-question">The 80-s</p>
+                </div>
+                <div class="questions__item">
+                    <p class="questions__type-question">The 90-s</p>
+                </div>
+                <div class="questions__item">
+                    <p class="questions__type-question">Noughties</p>
+                </div>
+                <div class="questions__item">
+                    <p class="questions__type-question">Modern</p>
+                </div>
+            </div>
+            <div class="main__panel-music panel-music">
+                <div class="panel-music__pict">&nbsp;</div>
+                <div class="panel-music__inform inform">
+                    <p class="inform__name">???</p>
+                    <p class="inform__music">
+                        <audio controls src="/media/cc0-audio/t-rex-roar.mp3">
+                    </p>
+                </div>
+            </div>
+            <div class="main__panel-answers"></div>
+            <div class="main__next-level"></div>
+        </div>
+    </main>
 </body>
 </html>

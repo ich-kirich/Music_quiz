@@ -1,3 +1,93 @@
-h2 {
-    color: green;
+%backimg {
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 100% 100%;
+}
+
+%tpclfontsize {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.main {
+    padding-top: 30px;
+    background: #191919;
+
+    &__container {
+        margin: 0 auto;
+        max-width: 1160px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__panel-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .panel-top {
+
+        &__logo {
+            width: 200px;
+            height: 100px;
+            background-image: url(../images/music_quiz_logo.png);
+            @extend %backimg;
+        }
+
+        &__score {
+            font-size: 20px;
+            @extend %tpclfontsize;
+        }
+
+    }
+
+    &__questions {
+        background: rgba(77, 71, 244, 0.744);
+        border-radius: 5px;
+    }
+
+    .questions {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        &__type-question {
+            font-size: 15px;
+            @extend %tpclfontsize;
+        }
+    }
+
+    &__panel-music {
+        display: flex;
+        justify-content: space-between;
+        background-color: #232323;
+        border-radius: 10px;
+    }
+
+    .panel-music {
+        padding: 16px;
+        &__pict {
+            width: 200px;
+            height: 155px;
+            border-radius: 10px;
+            background-image: url(../images/unknow_music.jpg);
+            @extend %backimg;
+        }
+
+        &__inform {
+            width: calc(100% - 340px);
+        }
+
+        .inform {
+
+            &__name {
+                font-size: 25px;
+                @extend %tpclfontsize;
+            }
+        }
+    }
 }
