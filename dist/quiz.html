@@ -1,13 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Music Quiz</title>
 <link rel="icon" href="favicon.ico"><script defer src="quiz.js"></script></head>
 <body>
-    <h2>as2</h2>
-    <a href="./index.html">На первую страницу</a>
+    <main class="main">
+        <div class="main__container">
+            <div class="main__panel-top panel-top">
+                <div class="panel-top__logo">&nbsp;</div>
+                <div class="panel-top__score-wrap">
+                    <p class="panel-top__score">Score: 0</p>
+                </div>
+            </div>
+            <div class="main__questions questions">
+                <div class="questions__item">
+                    <p class="questions__type-question">Warm-up</p>
+                </div>
+                <div class="questions__item">
+                    <p class="questions__type-question">The 70-s</p>
+                </div>
+                <div class="questions__item">
+                    <p class="questions__type-question">The 80-s</p>
+                </div>
+                <div class="questions__item">
+                    <p class="questions__type-question">The 90-s</p>
+                </div>
+                <div class="questions__item">
+                    <p class="questions__type-question">Noughties</p>
+                </div>
+                <div class="questions__item">
+                    <p class="questions__type-question">Modern</p>
+                </div>
+            </div>
+            <div class="main__panel-music panel-music">
+                <div class="panel-music__pict">&nbsp;</div>
+                <div class="panel-music__inform inform">
+                    <p class="inform__name">? ? ?</p>
+                    <div class="inform__player player">
+                        <audio id="audio-bar" class="player__audio" controls >
+                            <source src="./src/music/minnie_the_moocher.mp3" type="audio/mpeg">
+                        </audio>
+                        <button class="player__play-btn">&#9658;</button>
+                        <div class="player__play-time">00:00</div>
+                        <input class="player__time" id="cur-time" type="range" min="0" max="10" step="0">
+                        <div id="icoVolume">&#128266;</div>
+                        <input class="player__volume" id="volume" type="range" min="0" max="10">
+                    </div>
+                </div>
+            </div>
+            <div class="main__panel-answers panel-answers">
+                <ul class="panel-answers__answers answers">
+                    <li class="answers__item">
+                        <span class="answers__li-btn"></span>
+                        <p class="answers__text">Blues</p>
+                    </li>
+                    <li class="answers__item">
+                        <span class="answers__li-btn"></span>
+                        <p class="answers__text">Jazz</p>
+                    </li>
+                    <li class="answers__item">
+                        <span class="answers__li-btn"></span>
+                        <p class="answers__text">Rock</p>
+                    </li>
+                    <li class="answers__item">
+                        <span class="answers__li-btn"></span>
+                        <p class="answers__text">Classical music</p>
+                    </li>
+                    <li class="answers__item">
+                        <span class="answers__li-btn"></span>
+                        <p class="answers__text">Rap</p>
+                    </li>
+                    <li class="answers__item">
+                        <span class="answers__li-btn"></span>
+                        <p class="answers__text">Folk music</p>
+                    </li>
+                </ul>
+                <div class="panel-answers__inform inform">
+                    <p class="inform__text">Listen to the player. <br>
+                        Select a genre of music from the list</p>
+                </div>
+            </div>
+            <div class="main__next-level next-level">
+                <button class="next-level__to-next">Next level</button>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
