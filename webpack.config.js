@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');    
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 let mode = 'development'
 if(process.env.NODE_ENV === 'production'){
@@ -24,13 +25,15 @@ module.exports = {
         template: "./src/index.html",
         favicon: "./src/images/favicon.ico",
         chunks: ['index']
-    }),
-    new HtmlWebpackPlugin({
-        filename: "quiz.html",
-        template: "./src/quiz.html",
-        favicon: "./src/images/favicon.ico",
-        chunks: ['quiz']
-    })],
+        }),
+        new HtmlWebpackPlugin({
+            filename: "quiz.html",
+            template: "./src/quiz.html",
+            favicon: "./src/images/favicon.ico",
+            chunks: ['quiz']
+        }),
+
+    ],
     module: {
         rules: [
             {
@@ -58,7 +61,7 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                type: "asset/resource",    
+                type: "asset/resource",
             },
             {
                 test: /\.mp3$/,
