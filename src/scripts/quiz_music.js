@@ -1,5 +1,4 @@
 import { musicBar } from './music_bar_inform.js'
-
 document.addEventListener("DOMContentLoaded", (e)=> {
     const music = document.querySelectorAll('.player__music')
     let nameMusicWarmUp = ["tennessee_whiskey", "minnie_the_moocher", "natural", "dance_knights", "mockingbird", "greensleeves"]
@@ -19,8 +18,7 @@ document.addEventListener("DOMContentLoaded", (e)=> {
     audioRight.src = './src/music/right.mp3'
     let audioWrong = new Audio()
     audioWrong.src = './src/music/wrong.mp3'
-    const audio = document.getElementById("audio-bar");
-
+    const audio = document.getElementById("audio-bar")
     let num = Math.floor(Math.random() * (6 - 0)) + 0;
     music[0].src = './src/music/' + nameMusicWarmUp[num] + '.mp3'
 

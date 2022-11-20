@@ -6,7 +6,9 @@ document.addEventListener("DOMContentLoaded", (e)=> {
     const curTime = document.getElementById("cur-time");
     const volume = document.getElementById("volume");
     const icoVolume = document.getElementById("icoVolume");
+    var isPlayMusic = require('./quiz_music.js');
     var isPlaying = false;
+    isPlaying = isPlayMusic.isPlay;
     audio.load();
     
     audio.onloadedmetadata = function() {
@@ -31,6 +33,9 @@ document.addEventListener("DOMContentLoaded", (e)=> {
         playTime.innerHTML = minutes + ':' + seconds;
         if(isPlaying) {
             curTime.value = audio.currentTime;
+        }
+        if(playBtn.textContent.includes("►")){
+            isPlaying = false;
         }
     };
 
