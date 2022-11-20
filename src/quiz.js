@@ -7,6 +7,8 @@ import './music/minnie_the_moocher.mp3';
 import './music/mockingbird.mp3';
 import './music/natural.mp3';
 import './music/tennessee_whiskey.mp3';
+import './music/right.mp3';
+import './music/wrong.mp3';
 import './images/blues.jpg';
 import './images/jazz.jpg';
 import './images/rock.jpg';

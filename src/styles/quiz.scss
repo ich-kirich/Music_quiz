@@ -316,6 +316,152 @@ html, body {
                 @extend %tpclfontsize;
             }
 
+            &__description {
+                display: none;
+                margin: 0;
+                @extend %tpclfontsize;
+            }
+
+            &__underinf {
+                display: none;
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .underinf {
+
+                &__upper-wrap {
+                    display: flex;
+                    justify-content: flex-start;
+                    gap: 30px;
+                    align-items: center;
+                }
+
+                &__pict {
+                    width: 200px;
+                    height: 125px;
+                    border-radius: 10px;
+                    @extend %backimg;
+                }
+
+                .blues {
+                    background-image: url(../images/blues.jpg);
+                }
+        
+                .jazz {
+                    background-image: url(../images/jazz.jpg);
+                }
+        
+                .rock {
+                    background-image: url(../images/rock.jpg);
+                }
+        
+                .classical_music {
+                    background-image: url(../images/classical_music.jpg);
+                }
+        
+                .rap {
+                    background-image: url(../images/rap.jpg);
+                }
+        
+                .folk_music {
+                    background-image: url(../images/folk_music.jpg);
+                }
+
+                &__name {
+                    font-size: 30px;
+                    @extend %tpclfontsize;
+                }
+
+                .player * {
+                    background: none;
+                    border: none;
+                    font-size: x-large;
+                }
+    
+                &__player {
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+                    background: #232323;
+                    padding: 12px;
+                    border-top: 1px solid #FFFFFF;
+                }
+    
+                .player {
+    
+                    &__play-btn {
+                        width: 38px;
+                        color: $secondaryСolor;
+                        border: 2px solid $secondaryСolor;
+                        border-radius: 50%;
+                        padding: 2px 7px;
+                    }
+    
+                    &__play-time {
+                        @extend %tpclfontsize;
+                    }
+    
+                    &__audio {
+                        display: none;
+                    }
+    
+                    &__time {
+                        width: 100%;
+                        -webkit-appearance: none;
+                        height: 5px;
+                        background: #383737;
+                        outline: none;
+                        -webkit-transition: .2s;
+                        transition: opacity .2s;
+    
+                        &::-webkit-slider-thumb {
+                            -webkit-appearance: none;
+                            appearance: none;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            background: $secondaryСolor;
+                            cursor: pointer;
+                        }
+    
+                        &::-moz-range-thumb {
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            background: $secondaryСolor;
+                            cursor: pointer;
+                        }
+                    }
+    
+                    &__volume {
+                        width: 40px;
+                        background-color: #383737;
+                        -webkit-appearance: none;
+                        height: 5px;
+                        border-radius: 5px;
+                        outline: none;
+                        opacity: 0.7;
+                        -webkit-transition: .2s;
+                        transition: opacity .2s;
+    
+                        &::-webkit-slider-thumb {
+                            -webkit-appearance: none;
+                            appearance: none;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            background: $secondaryСolor;
+                            cursor: pointer;
+                        }
+    
+                    }
+    
+                }
+    
+
+            }
+
         }
 
     }

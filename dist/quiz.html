@@ -82,8 +82,24 @@
                     </li>
                 </ul>
                 <div class="panel-answers__inform inform">
-                    <p class="inform__text">Listen to the player. <br>
-                        Select a genre of music from the list</p>
+                    <p class="inform__text">Listen to the player.<br>Select a genre of music from the list</p>
+                    <div class="inform__underinf underinf">
+                        <div class="underinf__upper-wrap">
+                            <div class="underinf__pict">&nbsp;</div>
+                            <p class="underinf__name"></p>
+                        </div>
+                        <div class="underinf__player player">
+                            <audio id="audio-bar-inform" class="player__audio" controls >
+                                <source class="player__music" type="audio/mpeg">
+                            </audio>
+                            <button class="player__play-btn">&#9658;</button>
+                            <div class="player__play-time">00:00</div>
+                            <input class="player__time" id="cur-time-inform" type="range" min="0" max="10" step="0">
+                            <div id="icoVolume-inform">&#128266;</div>
+                            <input class="player__volume" id="volume-inform" type="range" min="0" max="10">
+                        </div>
+                    </div>
+                    <p class="inform__description"></p>
                 </div>
             </div>
             <div class="main__next-level next-level">
