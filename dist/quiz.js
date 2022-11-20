@@ -64,6 +64,28 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
+/***/ "./src/music/dance_knights.mp3":
+/*!*************************************!*\
+  !*** ./src/music/dance_knights.mp3 ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"src/music/dance_knights.mp3\");\n\n//# sourceURL=webpack://ich-kirich-jsfe2022q3/./src/music/dance_knights.mp3?");
+
+/***/ }),
+
+/***/ "./src/music/greensleeves.mp3":
+/*!************************************!*\
+  !*** ./src/music/greensleeves.mp3 ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"src/music/greensleeves.mp3\");\n\n//# sourceURL=webpack://ich-kirich-jsfe2022q3/./src/music/greensleeves.mp3?");
+
+/***/ }),
+
 /***/ "./src/music/minnie_the_moocher.mp3":
 /*!******************************************!*\
   !*** ./src/music/minnie_the_moocher.mp3 ***!
@@ -72,6 +94,39 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"src/music/minnie_the_moocher.mp3\");\n\n//# sourceURL=webpack://ich-kirich-jsfe2022q3/./src/music/minnie_the_moocher.mp3?");
+
+/***/ }),
+
+/***/ "./src/music/mockingbird.mp3":
+/*!***********************************!*\
+  !*** ./src/music/mockingbird.mp3 ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"src/music/mockingbird.mp3\");\n\n//# sourceURL=webpack://ich-kirich-jsfe2022q3/./src/music/mockingbird.mp3?");
+
+/***/ }),
+
+/***/ "./src/music/natural.mp3":
+/*!*******************************!*\
+  !*** ./src/music/natural.mp3 ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"src/music/natural.mp3\");\n\n//# sourceURL=webpack://ich-kirich-jsfe2022q3/./src/music/natural.mp3?");
+
+/***/ }),
+
+/***/ "./src/music/tennessee_whiskey.mp3":
+/*!*****************************************!*\
+  !*** ./src/music/tennessee_whiskey.mp3 ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"src/music/tennessee_whiskey.mp3\");\n\n//# sourceURL=webpack://ich-kirich-jsfe2022q3/./src/music/tennessee_whiskey.mp3?");
 
 /***/ }),
 
@@ -170,7 +225,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_quiz_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/quiz.scss */ \"./src/styles/quiz.scss\");\n/* harmony import */ var _styles_normalize_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/normalize.css */ \"./src/styles/normalize.css\");\n/* harmony import */ var _music_minnie_the_moocher_mp3__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./music/minnie_the_moocher.mp3 */ \"./src/music/minnie_the_moocher.mp3\");\n/* harmony import */ var _scripts_music_bar_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scripts/music_bar.js */ \"./src/scripts/music_bar.js\");\n/* harmony import */ var _scripts_music_bar_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scripts_music_bar_js__WEBPACK_IMPORTED_MODULE_3__);\n\r\n\r\n\r\n\r\n\r\nconsole.log(\"pog\")\n\n//# sourceURL=webpack://ich-kirich-jsfe2022q3/./src/quiz.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_quiz_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/quiz.scss */ \"./src/styles/quiz.scss\");\n/* harmony import */ var _styles_normalize_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/normalize.css */ \"./src/styles/normalize.css\");\n/* harmony import */ var _music_minnie_the_moocher_mp3__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./music/minnie_the_moocher.mp3 */ \"./src/music/minnie_the_moocher.mp3\");\n/* harmony import */ var _music_dance_knights_mp3__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./music/dance_knights.mp3 */ \"./src/music/dance_knights.mp3\");\n/* harmony import */ var _music_greensleeves_mp3__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./music/greensleeves.mp3 */ \"./src/music/greensleeves.mp3\");\n/* harmony import */ var _music_mockingbird_mp3__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./music/mockingbird.mp3 */ \"./src/music/mockingbird.mp3\");\n/* harmony import */ var _music_natural_mp3__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./music/natural.mp3 */ \"./src/music/natural.mp3\");\n/* harmony import */ var _music_tennessee_whiskey_mp3__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./music/tennessee_whiskey.mp3 */ \"./src/music/tennessee_whiskey.mp3\");\n/* harmony import */ var _scripts_quiz_music_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./scripts/quiz_music.js */ \"./src/scripts/quiz_music.js\");\n/* harmony import */ var _scripts_quiz_music_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_scripts_quiz_music_js__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _scripts_music_bar_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./scripts/music_bar.js */ \"./src/scripts/music_bar.js\");\n/* harmony import */ var _scripts_music_bar_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_scripts_music_bar_js__WEBPACK_IMPORTED_MODULE_9__);\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconsole.log(\"pog\")\n\n//# sourceURL=webpack://ich-kirich-jsfe2022q3/./src/quiz.js?");
 
 /***/ }),
 
@@ -180,7 +235,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \**********************************/
 /***/ (() => {
 
-eval("document.addEventListener(\"DOMContentLoaded\", (e)=> {\r\n\r\n    const audio = document.getElementById(\"audio-bar\");\r\n    const playTime = document.getElementsByClassName(\"player__play-time\")[0];\r\n    const playBtn = document.getElementsByClassName(\"player__play-btn\")[0];\r\n    const curTime = document.getElementById(\"cur-time\");\r\n    const volume = document.getElementById(\"volume\");\r\n    const icoVolume = document.getElementById(\"icoVolume\");\r\n    var isPlaying = false;\r\n    \r\n    audio.onloadedmetadata = function() {\r\n        curTime.max = audio.duration;\r\n    };\r\n\r\n    audio.ontimeupdate=function() {\r\n        var sec = audio.currentTime;\r\n        var hours = Math.floor(sec / 3600);\r\n        var minutes = Math.floor((sec - (hours * 3600)) / 60);\r\n        var seconds = sec - (hours * 3600) - (minutes * 60);\r\n        seconds = Math.round(seconds);\r\n        if (hours < 10) {\r\n            hours = \"0\" + hours;\r\n        }\r\n        if (minutes < 10) {\r\n            minutes = \"0\" + minutes;\r\n        }\r\n        if (seconds < 10) {\r\n            seconds = \"0\" + seconds;\r\n        }\r\n        playTime.innerHTML = minutes + ':' + seconds;\r\n        if(isPlaying) {\r\n            curTime.value = audio.currentTime;\r\n        }\r\n    };\r\n\r\n    audio.addEventListener(\"ended\", function() {\r\n        isPlaying = false;\r\n        playBtn.innerHTML = \"&#9658;\";\r\n    });\r\n\r\n    volume.onchange=function() {\r\n        audio.volume = volume.value / 10;\r\n    };\r\n\r\n    curTime.onchange=function() {\r\n        audio.pause();\r\n        audio.currentTime = curTime.value;\r\n        audio.play();\r\n        playBtn.innerHTML = \"&#10074;&#10074;\";\r\n        isPlaying = true;\r\n    };\r\n\r\n    icoVolume.onclick=function() {\r\n        if(volume.value == 0) {\r\n            icoVolume.innerHTML = \"&#128266;\";\r\n            volume.value = 10;\r\n            audio.volume = 1;\r\n        } \r\n        else {\r\n            icoVolume.innerHTML = \"&#128263;\";\r\n            volume.value = 0;\r\n            audio.volume = 0;\r\n        }\r\n    };\r\n\r\n    playBtn.addEventListener(\"click\", (a)=> {\r\n        if(isPlaying)\r\n        {\r\n            audio.pause();\r\n            isPlaying = false;\r\n            playBtn.innerHTML = \"&#9658;\";\r\n        }\r\n        else {\r\n            audio.play();\r\n            isPlaying = true;\r\n            playBtn.innerHTML = \"&#10074;&#10074;\";\r\n        }\r\n    });\r\n});\n\n//# sourceURL=webpack://ich-kirich-jsfe2022q3/./src/scripts/music_bar.js?");
+eval("document.addEventListener(\"DOMContentLoaded\", (e)=> {\r\n\r\n    const audio = document.getElementById(\"audio-bar\");\r\n    const playTime = document.getElementsByClassName(\"player__play-time\")[0];\r\n    const playBtn = document.getElementsByClassName(\"player__play-btn\")[0];\r\n    const curTime = document.getElementById(\"cur-time\");\r\n    const volume = document.getElementById(\"volume\");\r\n    const icoVolume = document.getElementById(\"icoVolume\");\r\n    var isPlaying = false;\r\n    audio.load();\r\n    \r\n    audio.onloadedmetadata = function() {\r\n        curTime.max = audio.duration;\r\n    };\r\n\r\n    audio.ontimeupdate=function() {\r\n        var sec = audio.currentTime;\r\n        var hours = Math.floor(sec / 3600);\r\n        var minutes = Math.floor((sec - (hours * 3600)) / 60);\r\n        var seconds = sec - (hours * 3600) - (minutes * 60);\r\n        seconds = Math.round(seconds);\r\n        if (hours < 10) {\r\n            hours = \"0\" + hours;\r\n        }\r\n        if (minutes < 10) {\r\n            minutes = \"0\" + minutes;\r\n        }\r\n        if (seconds < 10) {\r\n            seconds = \"0\" + seconds;\r\n        }\r\n        playTime.innerHTML = minutes + ':' + seconds;\r\n        if(isPlaying) {\r\n            curTime.value = audio.currentTime;\r\n        }\r\n    };\r\n\r\n    audio.addEventListener(\"ended\", function() {\r\n        isPlaying = false;\r\n        playBtn.innerHTML = \"&#9658;\";\r\n    });\r\n\r\n    volume.onchange=function() {\r\n        audio.volume = volume.value / 10;\r\n    };\r\n\r\n    curTime.onchange=function() {\r\n        audio.pause();\r\n        audio.currentTime = curTime.value;\r\n        audio.play();\r\n        playBtn.innerHTML = \"&#10074;&#10074;\";\r\n        isPlaying = true;\r\n    };\r\n\r\n    icoVolume.onclick=function() {\r\n        if(volume.value == 0) {\r\n            icoVolume.innerHTML = \"&#128266;\";\r\n            volume.value = 10;\r\n            audio.volume = 1;\r\n        } \r\n        else {\r\n            icoVolume.innerHTML = \"&#128263;\";\r\n            volume.value = 0;\r\n            audio.volume = 0;\r\n        }\r\n    };\r\n\r\n    playBtn.addEventListener(\"click\", (a)=> {\r\n        if(isPlaying)\r\n        {\r\n            audio.pause();\r\n            isPlaying = false;\r\n            playBtn.innerHTML = \"&#9658;\";\r\n        }\r\n        else {\r\n            audio.play();\r\n            isPlaying = true;\r\n            playBtn.innerHTML = \"&#10074;&#10074;\";\r\n        }\r\n    });\r\n});\n\n//# sourceURL=webpack://ich-kirich-jsfe2022q3/./src/scripts/music_bar.js?");
+
+/***/ }),
+
+/***/ "./src/scripts/quiz_music.js":
+/*!***********************************!*\
+  !*** ./src/scripts/quiz_music.js ***!
+  \***********************************/
+/***/ (() => {
+
+eval("document.addEventListener(\"DOMContentLoaded\", (e)=> {\r\n    const music = document.querySelector('.player__music')\r\n    let nameMusicWarmUp = [\"minnie_the_moocher\", \"tennessee_whiskey\", \"natural\", \"dance_knights\", \"mockingbird\", \"greensleeves\"]\r\n\r\n    function generateMusic(){\r\n        let num = Math.floor(Math.random() * (5 - 0)) + 0;\r\n        music.src = './src/music/' + nameMusicWarmUp[num] + '.mp3'\r\n    }\r\n    generateMusic();\r\n});\n\n//# sourceURL=webpack://ich-kirich-jsfe2022q3/./src/scripts/quiz_music.js?");
 
 /***/ }),
 

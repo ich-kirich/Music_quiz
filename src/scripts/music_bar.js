@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", (e)=> {
     const volume = document.getElementById("volume");
     const icoVolume = document.getElementById("icoVolume");
     var isPlaying = false;
+    audio.load();
     
     audio.onloadedmetadata = function() {
         curTime.max = audio.duration;

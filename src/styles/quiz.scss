@@ -73,6 +73,7 @@ html, body {
             font-size: 15px;
             @extend %tpclfontsize;
         }
+        
     }
 
     &__panel-music {
@@ -190,8 +191,11 @@ html, body {
                     }
 
                 }
+
             }
+
         }
+
     }
 
     &__panel-answers {
@@ -254,7 +258,8 @@ html, body {
         }
         
         .inform {
-            width: 100%;    
+            width: 100%; 
+
             &__text {
                 margin: 0;
                 padding: 15px;
@@ -263,6 +268,7 @@ html, body {
             }
 
         }
+
     }
 
     .next-level {
@@ -277,4 +283,5 @@ html, body {
         }
 
     }
+
 }
