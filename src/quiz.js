@@ -14,12 +14,12 @@ import './music/irish.mp3';
 import './music/russian.mp3';
 import './music/spanish.mp3';
 import './music/turkish.mp3';
-import './images/blues.jpg';
-import './images/jazz.jpg';
-import './images/rock.jpg';
-import './images/classical_music.jpg';
-import './images/rap.jpg';
-import './images/folk_music.jpg';
+import './music/metal.mp3';
+import './music/heavy_metal.mp3';
+import './music/speed_metal.mp3';
+import './music/hard_rock.mp3';
+import './music/punk_rock.mp3';
+import './music/grunge.mp3';
 import './scripts/quiz_music.js';
 import './scripts/music_bar.js';
 

@@ -161,6 +161,30 @@ html, body {
             background-image: url(../images/turkish.jpg);
         }
 
+        .indie_rock {
+            background-image: url(../images/indie_rock.jpg);
+        }
+
+        .heavy_metal {
+            background-image: url(../images/heavy_metal.jpg);
+        }
+
+        .speed_metal {
+            background-image: url(../images/speed_metal.jpg);
+        }
+
+        .hard_rock {
+            background-image: url(../images/hard_rock.jpg);
+        }
+
+        .punk_rock {
+            background-image: url(../images/punk_rock.jpg);
+        }
+
+        .grunge {
+            background-image: url(../images/grunge.jpg);
+        }
+
         &__inform {
             width: calc(100% - 340px);
         }
@@ -414,6 +438,30 @@ html, body {
 
                 .turkish {
                     background-image: url(../images/turkish.jpg);
+                }
+
+                .indie_rock {
+                    background-image: url(../images/indie_rock.jpg);
+                }
+        
+                .heavy_metal {
+                    background-image: url(../images/heavy_metal.jpg);
+                }
+        
+                .speed_metal {
+                    background-image: url(../images/speed_metal.jpg);
+                }
+        
+                .hard_rock {
+                    background-image: url(../images/hard_rock.jpg);
+                }
+        
+                .punk_rock {
+                    background-image: url(../images/punk_rock.jpg);
+                }
+        
+                .grunge {
+                    background-image: url(../images/grunge.jpg);
                 }
 
                 &__name {
