@@ -1,5 +1,4 @@
 import './styles/quiz.scss';
-import './styles/normalize.css';
 import './music/classical_music.mp3';
 import './music/folk_music.mp3';
 import './music/jazz.mp3';

@@ -1,6 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
+const path = require('path');
 
 let mode = 'development'
 if(process.env.NODE_ENV === 'production'){
@@ -16,10 +16,14 @@ module.exports = {
     output:{
         assetModuleFilename: 'assets/[hash][ext][query]',
         clean: true,
+        filename: "./src/assets/styles/[name].css",
+        filename: '[name].js',
+        path: __dirname + '/dist',
+        chunkFilename: '[id].[chunkhash].js'
     },
     plugins: [
-        new MiniCssExtractPlugin({ filename: 'style.css', chunkFilename: 'index' }),
-        new MiniCssExtractPlugin({ filename: 'quiz.css', chunkFilename: 'quiz' }),
+        new MiniCssExtractPlugin({ filename: '[name][ext].css', chunkFilename: 'index' }),
+        new MiniCssExtractPlugin({ filename: '[name][ext].css', chunkFilename: 'quiz' }),
         new HtmlWebpackPlugin({
         filename: "index.html",
         template: "./src/index.html",

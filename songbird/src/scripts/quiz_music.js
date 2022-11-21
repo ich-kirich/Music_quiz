@@ -3,7 +3,9 @@ import { updateMusic } from './music_bar.js'
 var level = 0
 var resultScore = 0
 
-generateMultipalChoise(level)
+document.addEventListener("DOMContentLoaded", (e)=> {
+    generateMultipalChoise(level)
+});
 
 function generateMusic(nameMusic){
     const music = document.querySelectorAll('.player__music')
@@ -177,6 +179,11 @@ function generateMultipalChoise(level) {
     let num = generateMusic(musicsArray[level]);
     updateMusic();
 
+    const btnResult = document.querySelector('.next-level__to-next')
+    if(level === 5) {
+        btnResult.innerHTML = "Results"
+    }
+
     answers.forEach(answer => answer.addEventListener('click', function handler(e) {
         e.preventDefault()
         answers = Array.from(answers)
@@ -342,35 +349,40 @@ function toNextLevel(num1, level){
         ]
     ]
     toNextLevel.onclick = function() {
-        document.querySelector('.panel-music__pict').classList.remove(musicsArray[level][num1])
-        for(let r = 0; r < musicsArray[level].length; r++){
-            document.querySelector('.underinf__pict').classList.remove(musicsArray[level][r])
+        if(level === 5) {
+            btnResult.innerHTML = "Results"
         }
-        level++
-        document.querySelector('.next-level__to-next').classList.remove("active")
-        document.querySelector('.inform__name').innerText = "* * *"
-        document.querySelector('.inform__text').style.display = 'block'
-        document.querySelector('.inform__underinf').style.display = 'none'
-        document.querySelector('.inform__description').style.display = 'none'
-        const liBtn = document.querySelectorAll('.answers__li-btn')
-        let audio = document.getElementById("audio-bar")
-        audio.pause();
-        audio = document.getElementById("audio-bar-inform")
-        audio.pause();
-        for(let i = 0; i < liBtn.length; i++){
-            liBtn[i].style.background = "#444"
+        else {
+            document.querySelector('.panel-music__pict').classList.remove(musicsArray[level][num1])
+            for(let r = 0; r < musicsArray[level].length; r++){
+                document.querySelector('.underinf__pict').classList.remove(musicsArray[level][r])
+            }
+            level++
+            document.querySelector('.next-level__to-next').classList.remove("active")
+            document.querySelector('.inform__name').innerText = "* * *"
+            document.querySelector('.inform__text').style.display = 'block'
+            document.querySelector('.inform__underinf').style.display = 'none'
+            document.querySelector('.inform__description').style.display = 'none'
+            const liBtn = document.querySelectorAll('.answers__li-btn')
+            let audio = document.getElementById("audio-bar")
+            audio.pause();
+            audio = document.getElementById("audio-bar-inform")
+            audio.pause();
+            for(let i = 0; i < liBtn.length; i++){
+                liBtn[i].style.background = "#444"
+            }
+            const levelsMusic = document.getElementsByClassName('questions__item')
+            levelsMusic[level - 1].classList.remove("active")
+            levelsMusic[level].classList.add("active")
+            const answers = document.querySelectorAll('.answers__text')
+            for(let i = 0; i < answers.length; i++){
+                answers[i].innerText = answersTolevels[level][i]
+            }
+            var answersToDelListener = Array.from(document.querySelectorAll('.answers__item'))
+            for(let z = 0; z < answersToDelListener.length; z++){
+                answersToDelListener[z].outerHTML = answersToDelListener[z].outerHTML
+            }
+            generateMultipalChoise(level)
         }
-        const levelsMusic = document.getElementsByClassName('questions__item')
-        levelsMusic[level - 1].classList.remove("active")
-        levelsMusic[level].classList.add("active")
-        const answers = document.querySelectorAll('.answers__text')
-        for(let i = 0; i < answers.length; i++){
-            answers[i].innerText = answersTolevels[level][i]
-        }
-        var answersToDelListener = Array.from(document.querySelectorAll('.answers__item'))
-        for(let z = 0; z < answersToDelListener.length; z++){
-            answersToDelListener[z].outerHTML = answersToDelListener[z].outerHTML
-        }
-        generateMultipalChoise(level)
     };
 }
