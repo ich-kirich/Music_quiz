@@ -37,6 +37,22 @@ function generateMultipalChoise(level) {
             "hard_rock",
             "punk_rock",
             "grunge"
+        ],
+        [
+            "bebop",
+            "cool_jazz",
+            "swing",
+            "latin_jazz",
+            "electro_swing",
+            "indo_jazz"
+        ],
+        [
+            "jazz_rap",
+            "cloud_rap",
+            "gangsta_rap",
+            "crunk",
+            "trap",
+            "mumble_rap"
         ]
     ]
     const massDescript = [
@@ -63,6 +79,22 @@ function generateMultipalChoise(level) {
             "Hard rock (рус. Хард-рок) or heavy rock is a genre of rock music characterized by a dedicated role of the rhythm section, mainly bass guitar and percussion instruments.",
             "Punk rock (рус. Панк-рок) is a music genre that emerged in the mid-1970s. Rooted in 1960s garage rock, punk bands rejected the perceived excesses of mainstream 1970s rock.",
             "Grunge (рус. Гранж) is an alternative rock sub-style that developed from hardcore punk and heavy metal in the mid-1980s in the US state of Washington, primarily in Seattle and nearby cities."
+        ],
+        [
+            "Bebop or bop (рус. Бибоп) is a style of jazz developed in the early-to-mid-1940s in the United States. The style features compositions characterized by a fast tempo, complex chord progressions with rapid chord changes and numerous changes of key, instrumental virtuosity.",
+            "Cool jazz (рус. Крутой джаз) is a style of modern jazz music that arose in the United States after World War II. It is characterized by relaxed tempos and lighter tone, in contrast to the fast and complex bebop style. Cool jazz often employs formal arrangements and incorporates elements of classical music.",
+            "Swing music (рус. Свинг) is a style of jazz that developed in the United States during the late 1920s and early 1930s. It became nationally popular from the mid-1930s. The name derived from its emphasis on the off-beat, or nominally weaker beat.",
+            "Latin jazz (рус. Латинский джаз) is a genre of jazz with Latin American rhythms. The two main categories are Afro-Cuban jazz, rhythmically based on Cuban popular dance music, with a rhythm section employing ostinato patterns or a clave, and Afro-Brazilian jazz, which includes samba.",
+            "Electro swing (рус. Электро-свинг), or swing house, is an electronic dance music genre that combines the influence of vintage or modern swing and jazz mixed with house and hip hop.",
+            "Indo jazz (рус. Индо-джаз) is a musical genre consisting of jazz, classical and Indian influences. Its structure and patterns are based on Indian music with typical jazz improvisation overlaid.",
+        ],
+        [
+            "Jazz rap (рус. Джаз-рэп) is a trend in hip hop music that emerged in the late 1980s. Beats in jazz rap are jazz samples; texts are positivist",
+            "Cloud rap (рус. Клауд-рэп) is a micro-genre of hip-hop music. Usually characterized by a hazy and lo-fi sound.",
+            "Gangsta rap (рус. Гангста-рэп) is a style of hip hop characterized by themes and lyrics that usually emphasize the 'gangster', 'O.G', and 'Thug-Lif' lifestyle.",
+            "Crunk (рус. Кранк) is a form of southern hip hop or southern rap. Crunk music is a mix of repetitive chants and drum machine rhythms, usually generated on the most popular of the drum machines.",
+            "Trap (рус. Трэп) is a subgenre of hip hop. The music makes extensive use of multi-layer synthesizers, which lead the melody with a hard line; crunchy, dirty and rhythmic snare drums; deep drums-barrels.",
+            "Mumble rap (рус. Мамбл-рэп) is a subgenre of trap music that emerged in the mid-2010s in the United States. It is characterized by an emphasis on expressiveness of sound, in contrast to traditional hip-hop, which is based on lyrics and rhymes.",
         ]
     ]
 
@@ -91,6 +123,22 @@ function generateMultipalChoise(level) {
             "Punk rock",
             "Grunge"
         ],
+        [
+            "Bebop",
+            "Cool jazz",
+            "Swing",
+            "Latin jazz",
+            "Electro swing",
+            "Indo jazz"
+        ],
+        [
+            "Jazz rap",
+            "Cloud rap",
+            "Gangsta rap",
+            "Crunk",
+            "Trap",
+            "Mumble rap"
+        ]
     ]
 
     const music = document.querySelectorAll('.player__music')
@@ -193,6 +241,22 @@ function toNextLevel(num1, level){
             "Punk rock",
             "Grunge"
         ],
+        [
+            "Bebop",
+            "Cool jazz",
+            "Swing",
+            "Latin jazz",
+            "Electro swing",
+            "Indo jazz"
+        ],
+        [
+            "Jazz rap",
+            "Cloud rap",
+            "Gangsta rap",
+            "Crunk",
+            "Trap",
+            "Mumble rap"
+        ]
     ]
 
     const musicsArray = [
@@ -218,7 +282,23 @@ function toNextLevel(num1, level){
             "speed_metal",
             "hard_rock",
             "punk_rock",
-            "grunge",
+            "grunge"
+        ],
+        [
+            "bebop",
+            "cool_jazz",
+            "swing",
+            "latin_jazz",
+            "electro_swing",
+            "indo_jazz"
+        ],
+        [
+            "jazz_rap",
+            "cloud_rap",
+            "gangsta_rap",
+            "crunk",
+            "trap",
+            "mumble_rap"
         ]
     ]
     toNextLevel.onclick = function() {
