@@ -560,6 +560,30 @@ html, body {
                     background-image: url(../images/cloud_rap.jpg);
                 }
 
+                .traditional_pop_music {
+                    background-image: url(../images/traditional_pop_music.jpg);
+                }
+
+                .q_pop {
+                    background-image: url(../images/q_pop.jpg);
+                }
+
+                .k_pop {
+                    background-image: url(../images/k_pop.jpg);
+                }
+
+                .j_pop {
+                    background-image: url(../images/j_pop.jpg);
+                }
+
+                .electropop {
+                    background-image: url(../images/electropop.jpg);
+                }
+
+                .disco {
+                    background-image: url(../images/disco.jpg);
+                }
+
                 &__name {
                     font-size: 30px;
                     @extend %tpclfontsize;

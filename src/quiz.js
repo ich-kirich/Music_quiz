@@ -32,6 +32,12 @@ import './music/jazz_rap.mp3';
 import './music/gangsta_rap.mp3';
 import './music/crunk.mp3';
 import './music/cloud_rap.mp3';
+import './music/traditional_pop_music.mp3';
+import './music/q_pop.mp3';
+import './music/k_pop.mp3';
+import './music/j_pop.mp3';
+import './music/electropop.mp3';
+import './music/disco.mp3';
 import './scripts/quiz_music.js';
 import './scripts/music_bar.js';
 

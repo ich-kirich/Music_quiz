@@ -53,6 +53,14 @@ function generateMultipalChoise(level) {
             "crunk",
             "trap",
             "mumble_rap"
+        ],
+        [
+            "k_pop",
+            "electropop",
+            "j_pop",
+            "q_pop",
+            "disco",
+            "traditional_pop_music"
         ]
     ]
     const massDescript = [
@@ -95,6 +103,14 @@ function generateMultipalChoise(level) {
             "Crunk (рус. Кранк) is a form of southern hip hop or southern rap. Crunk music is a mix of repetitive chants and drum machine rhythms, usually generated on the most popular of the drum machines.",
             "Trap (рус. Трэп) is a subgenre of hip hop. The music makes extensive use of multi-layer synthesizers, which lead the melody with a hard line; crunchy, dirty and rhythmic snare drums; deep drums-barrels.",
             "Mumble rap (рус. Мамбл-рэп) is a subgenre of trap music that emerged in the mid-2010s in the United States. It is characterized by an emphasis on expressiveness of sound, in contrast to traditional hip-hop, which is based on lyrics and rhymes.",
+        ],
+        [
+            "K-pop (рус. K-поп) is a musical genre that originated in South Korea and incorporates elements of western electropop, hip-hop, dance music, and contemporary rhythm and blues.",
+            "Electropop (рус. Электропоп) is a musical genre that combines elements of electronic and pop music. Usually described as a type of synthpop with a particular leaning towards electronica.",
+            "J-pop (рус. J-поп) is Japanese popular music. In special cases, the term 'J-pop' is used by musicians for their music, close to rock, but for it the term J-rock is usually used.",
+            "Q-pop (рус. Q-поп) is a musical subculture that originated in Kazakhstan and incorporates elements of Western electropop, hip-hop, dance music and modern rhythm and blues.",
+            "Disco (рус. Диско) is one of the main genres of dance music of the 20th century, which emerged in the early 1970s.",
+            "Traditional pop music (рус. Традиционная поп музыка) - in modern English terminology, popular music of the rock and roll era, that is, Western, primarily American, popular music in a style that was standard until it was superseded by rock and roll in the mid-1950s.",
         ]
     ]
 
@@ -138,6 +154,14 @@ function generateMultipalChoise(level) {
             "Crunk",
             "Trap",
             "Mumble rap"
+        ],
+        [
+            "K-pop",
+            "Electropop",
+            "J-pop",
+            "Q-pop",
+            "Disco",
+            "Traditional pop music"
         ]
     ]
 
@@ -256,6 +280,14 @@ function toNextLevel(num1, level){
             "Crunk",
             "Trap",
             "Mumble rap"
+        ],
+        [
+            "K-pop",
+            "Electropop",
+            "J-pop",
+            "Q-pop",
+            "Disco",
+            "Traditional pop music"
         ]
     ]
 
@@ -277,7 +309,7 @@ function toNextLevel(num1, level){
             "turkish"
         ],
         [
-            "metal",
+            "indie_rock",
             "heavy_metal",
             "speed_metal",
             "hard_rock",
@@ -299,6 +331,14 @@ function toNextLevel(num1, level){
             "crunk",
             "trap",
             "mumble_rap"
+        ],
+        [
+            "k_pop",
+            "electropop",
+            "j_pop",
+            "q_pop",
+            "disco",
+            "traditional_pop_music"
         ]
     ]
     toNextLevel.onclick = function() {
