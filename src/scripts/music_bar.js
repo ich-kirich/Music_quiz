@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", (e)=> {
+    updateMusic();
+});
 
+export function updateMusic() {
     const audio = document.getElementById("audio-bar");
     const playTime = document.getElementsByClassName("player__play-time")[0];
     const playBtn = document.getElementsByClassName("player__play-btn")[0];
@@ -44,11 +47,11 @@ document.addEventListener("DOMContentLoaded", (e)=> {
         playBtn.innerHTML = "&#9658;";
     });
 
-    volume.onchange=function() {
+    volume.onchange = function() {
         audio.volume = volume.value / 10;
     };
 
-    curTime.onchange=function() {
+    curTime.onchange = function() {
         audio.pause();
         audio.currentTime = curTime.value;
         audio.play();
@@ -56,7 +59,7 @@ document.addEventListener("DOMContentLoaded", (e)=> {
         isPlaying = true;
     };
 
-    icoVolume.onclick=function() {
+    icoVolume.onclick = function() {
         if(volume.value == 0) {
             icoVolume.innerHTML = "&#128266;";
             volume.value = 10;
@@ -82,4 +85,4 @@ document.addEventListener("DOMContentLoaded", (e)=> {
             playBtn.innerHTML = "&#10074;&#10074;";
         }
     });
-});
+}

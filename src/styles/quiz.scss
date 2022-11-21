@@ -137,6 +137,30 @@ html, body {
             background-image: url(../images/folk_music.jpg);
         }
 
+        .english {
+            background-image: url(../images/english.jpg);
+        }
+
+        .irish {
+            background-image: url(../images/irish.jpg);
+        }
+
+        .german {
+            background-image: url(../images/german.jpg);
+        }
+
+        .russian {
+            background-image: url(../images/russian.jpg);
+        }
+
+        .spanish {
+            background-image: url(../images/spanish.jpg);
+        }
+
+        .turkish {
+            background-image: url(../images/turkish.jpg);
+        }
+
         &__inform {
             width: calc(100% - 340px);
         }
@@ -368,6 +392,30 @@ html, body {
                     background-image: url(../images/folk_music.jpg);
                 }
 
+                .english {
+                    background-image: url(../images/english.jpg);
+                }
+
+                .irish {
+                    background-image: url(../images/irish.jpg);
+                }
+
+                .german {
+                    background-image: url(../images/german.jpg);
+                }
+
+                .russian {
+                    background-image: url(../images/russian.jpg);
+                }
+
+                .spanish {
+                    background-image: url(../images/spanish.jpg);
+                }
+
+                .turkish {
+                    background-image: url(../images/turkish.jpg);
+                }
+
                 &__name {
                     font-size: 30px;
                     @extend %tpclfontsize;
@@ -475,6 +523,10 @@ html, body {
             background-color: #232323;
             border: none;
             border-radius: 5px;
+        }
+
+        .active {
+            background-color: rgba(77, 71, 244, 0.745);
         }
 
     }
