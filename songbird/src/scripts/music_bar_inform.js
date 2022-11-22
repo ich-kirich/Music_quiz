@@ -79,6 +79,10 @@ export function musicBar() {
     });
 
     const musBar = document.querySelectorAll('.player__audio')
+    const audioBloack = document.querySelectorAll('.player')
+    audioBloack[1].style.display = 'none'
+    const loadingTexgt = document.querySelector('.underinf__loading')
+    loadingTexgt.style.display = 'block'
     musBar[1].addEventListener('loadeddata', function abc() {
         const audioBloack = document.querySelectorAll('.player')
         audioBloack[1].style.display = 'flex'
