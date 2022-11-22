@@ -20,8 +20,8 @@ function generateMusic(nameMusic){
         const loadingTexgt = document.querySelector('.inform__loading')
         loadingTexgt.style.display = 'none'
         console.log("loaded1")
-        musBar[0].removeEventListener('click', abc);
     }, false);
+    musBar.outerHTML = musBar.outerHTML
 
     return num1
 }
@@ -410,6 +410,6 @@ function loadedMusic() {
         const loadingTexgt = document.querySelector('.underinf__loading')
         loadingTexgt.style.display = 'none'
         console.log("loaded2")
-        musBar[1].removeEventListener('click', abc);
     }, false);
+    musBar.outerHTML = musBar.outerHTML
 }
