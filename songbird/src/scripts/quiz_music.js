@@ -21,7 +21,6 @@ function generateMusic(nameMusic){
         loadingTexgt.style.display = 'none'
         console.log("loaded1")
     }, false);
-    musBar.outerHTML = musBar.outerHTML
 
     return num1
 }
@@ -242,8 +241,8 @@ function generateMultipalChoise(level) {
         }
         else {
             music[1].src = './src/music/' + musicsArray[level][answers.indexOf(answer)] + '.mp3'
-            loadedMusic();
             musicBar();
+            loadedMusic();
             if(!isWin){
                 score--
                 answer.querySelector('.answers__li-btn').style.background = "#ff0000"
@@ -411,5 +410,4 @@ function loadedMusic() {
         loadingTexgt.style.display = 'none'
         console.log("loaded2")
     }, false);
-    musBar.outerHTML = musBar.outerHTML
 }
