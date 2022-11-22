@@ -39,5 +39,3 @@ import './music/electropop.mp3';
 import './music/disco.mp3';
 import './scripts/quiz_music.js';
 import './scripts/music_bar.js';
-
-console.log("pog2")

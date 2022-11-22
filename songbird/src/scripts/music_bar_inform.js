@@ -88,7 +88,6 @@ export function musicBar() {
         audioBloack[1].style.display = 'flex'
         const loadingTexgt = document.querySelector('.underinf__loading')
         loadingTexgt.style.display = 'none'
-        console.log("loaded2")
     }, false);
 
 }

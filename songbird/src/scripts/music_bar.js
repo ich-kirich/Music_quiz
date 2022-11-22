@@ -97,6 +97,5 @@ export function updateMusic() {
         audioBloack[0].style.display = 'flex'
         const loadingTexgt = document.querySelector('.inform__loading')
         loadingTexgt.style.display = 'none'
-        console.log("loaded1")
     }, false);
 }
