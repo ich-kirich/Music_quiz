@@ -261,7 +261,7 @@ html, body {
             }
 
             &__loading {
-                display: none;
+                display: block;
                 @extend %tpclfontsize;
             }
 
@@ -482,7 +482,7 @@ html, body {
             .underinf {
 
                 &__loading {
-                    display: none;
+                    display: block;
                     @extend %tpclfontsize;
                 }
 
