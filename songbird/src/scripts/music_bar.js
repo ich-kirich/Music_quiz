@@ -13,21 +13,6 @@ export function updateMusic() {
     var isPlaying = false;
     isPlaying = isPlayMusic.isPlay;
     audio.load();
-
-    const musBar = document.querySelectorAll('.player__audio')
-    musBar[0].addEventListener('loadeddata', function() {
-        const audioBloack = document.querySelectorAll('.player')
-        audioBloack[0].style.display = 'flex'
-        const loadingTexgt = document.querySelector('.inform__loading')
-        loadingTexgt.style.display = 'none'
-    }, false);
-
-    musBar[1].addEventListener('loadeddata', function() {
-        const audioBloack = document.querySelectorAll('.player')
-        audioBloack[1].style.display = 'flex'
-        const loadingTexgt = document.querySelector('.underinf__loading')
-        loadingTexgt.style.display = 'none'
-    }, false);
     
     audio.onloadedmetadata = function() {
         curTime.max = audio.duration;
