@@ -7,6 +7,21 @@ document.addEventListener("DOMContentLoaded", (e)=> {
     generateMultipalChoise(level)
 });
 
+const musBar = document.querySelectorAll('.player__audio')
+musBar[0].addEventListener('loadeddata', function() {
+    const audioBloack = document.querySelectorAll('.player')
+    audioBloack[0].style.display = 'flex'
+    const loadingTexgt = document.querySelector('.inform__loading')
+    loadingTexgt.style.display = 'none'
+}, false);
+
+musBar[1].addEventListener('loadeddata', function() {
+    const audioBloack = document.querySelectorAll('.player')
+    audioBloack[1].style.display = 'flex'
+    const loadingTexgt = document.querySelector('.underinf__loading')
+    loadingTexgt.style.display = 'none'
+}, false);
+
 function generateMusic(nameMusic){
     const music = document.querySelectorAll('.player__music')
     let num1 = Math.floor(Math.random() * (6 - 0)) + 0;

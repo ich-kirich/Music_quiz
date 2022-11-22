@@ -260,6 +260,11 @@ html, body {
                 @extend %tpclfontsize;
             }
 
+            &__loading {
+                display: none;
+                @extend %tpclfontsize;
+            }
+
             .player * {
                 background: none;
                 border: none;
@@ -267,7 +272,7 @@ html, body {
             }
 
             &__player {
-                display: flex;
+                display: none;
                 gap: 20px;
                 align-items: center;
                 background: #232323;
@@ -476,6 +481,11 @@ html, body {
 
             .underinf {
 
+                &__loading {
+                    display: none;
+                    @extend %tpclfontsize;
+                }
+
                 &__upper-wrap {
                     display: flex;
                     justify-content: flex-start;
@@ -651,7 +661,7 @@ html, body {
                 }
     
                 &__player {
-                    display: flex;
+                    display: none;
                     gap: 20px;
                     align-items: center;
                     background: #232323;
