@@ -85,4 +85,13 @@ export function updateMusic() {
             playBtn.innerHTML = "&#10074;&#10074;";
         }
     });
+
+    const musBar = document.querySelectorAll('.player__audio')
+    musBar[0].addEventListener('loadeddata', function abc() {
+        const audioBloack = document.querySelectorAll('.player')
+        audioBloack[0].style.display = 'flex'
+        const loadingTexgt = document.querySelector('.inform__loading')
+        loadingTexgt.style.display = 'none'
+        console.log("loaded1")
+    }, false);
 }

@@ -12,16 +12,6 @@ function generateMusic(nameMusic){
     const music = document.querySelectorAll('.player__music')
     let num1 = Math.floor(Math.random() * (6 - 0)) + 0;
     music[0].src = './src/music/' + nameMusic[num1] + '.mp3'
-
-    const musBar = document.querySelectorAll('.player__audio')
-    musBar[0].addEventListener('loadeddata', function abc() {
-        const audioBloack = document.querySelectorAll('.player')
-        audioBloack[0].style.display = 'flex'
-        const loadingTexgt = document.querySelector('.inform__loading')
-        loadingTexgt.style.display = 'none'
-        console.log("loaded1")
-    }, false);
-
     return num1
 }
 
@@ -215,12 +205,12 @@ function generateMultipalChoise(level) {
                 audio.pause();
                 playBtn.innerHTML = "&#9658;";
                 toNextLevel(num, level);
+                isWin = true
             }
             for(let i = 0; i < musicsArray[level].length; i++){
                 answer.classList.remove(musicsArray[level][i]);
             }
             music[1].src = './src/music/' + musicsArray[level][answers.indexOf(answer)] + '.mp3'
-            loadedMusic();
             musicBar();
             answer.querySelector('.answers__li-btn').style.background = "#00D678"
             document.querySelector('.panel-music__pict').classList.add(musicsArray[level][num])
@@ -237,12 +227,10 @@ function generateMultipalChoise(level) {
             document.querySelector('.inform__text').style.display = 'none'
             document.querySelector('.inform__underinf').style.display = 'flex'
             document.querySelector('.underinf__name').innerText = str
-            isWin = true
         }
         else {
             music[1].src = './src/music/' + musicsArray[level][answers.indexOf(answer)] + '.mp3'
             musicBar();
-            loadedMusic();
             if(!isWin){
                 score--
                 answer.querySelector('.answers__li-btn').style.background = "#ff0000"
@@ -397,17 +385,7 @@ function toNextLevel(num1, level){
                 answersToDelListener[z].outerHTML = answersToDelListener[z].outerHTML
             }
             generateMultipalChoise(level)
+            toNextLevel.outerHTML = toNextLevel.outerHTML
         }
     };
-}
-
-function loadedMusic() {
-    const musBar = document.querySelectorAll('.player__audio')
-    musBar[1].addEventListener('loadeddata', function abc() {
-        const audioBloack = document.querySelectorAll('.player')
-        audioBloack[1].style.display = 'flex'
-        const loadingTexgt = document.querySelector('.underinf__loading')
-        loadingTexgt.style.display = 'none'
-        console.log("loaded2")
-    }, false);
 }
