@@ -86,6 +86,7 @@ export function updateMusic() {
         }
     });
 
+    const musBar = document.querySelectorAll('.player__audio')
     const audioBloack = document.querySelectorAll('.player')
     audioBloack[0].style.display = 'none'
     const loadingTexgt = document.querySelector('.inform__loading')
