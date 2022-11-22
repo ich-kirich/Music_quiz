@@ -12,6 +12,7 @@ module.exports = {
     entry: {
         index: ['./src/index.js', './src/styles/style.scss'],
         quiz: ['./src/quiz.js', './src/styles/quiz.scss'],
+        results: ['./src/results.js', './src/styles/results.scss'],
     },
     output:{
         assetModuleFilename: 'assets/[hash][ext][query]',
@@ -24,6 +25,7 @@ module.exports = {
     plugins: [
         new MiniCssExtractPlugin({ filename: '[name][ext].css', chunkFilename: 'index' }),
         new MiniCssExtractPlugin({ filename: '[name][ext].css', chunkFilename: 'quiz' }),
+        new MiniCssExtractPlugin({ filename: '[name][ext].css', chunkFilename: 'results' }),
         new HtmlWebpackPlugin({
         filename: "index.html",
         template: "./src/index.html",
@@ -36,7 +38,12 @@ module.exports = {
             favicon: "./src/images/favicon.ico",
             chunks: ['quiz']
         }),
-
+        new HtmlWebpackPlugin({
+            filename: "results.html",
+            template: "./src/results.html",
+            favicon: "./src/images/favicon.ico",
+            chunks: ['results']
+        }),
     ],
     module: {
         rules: [

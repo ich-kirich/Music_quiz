@@ -351,8 +351,10 @@ function toNextLevel(num1, level){
         ]
     ]
     toNextLevel.onclick = function() {
-        if(level === 5) {
-            btnResult.innerHTML = "Results"
+        const btnResult = document.querySelector('.next-level__to-next')
+        if(btnResult.textContent === "Results") {
+            localStorage.setItem(0, resultScore);
+            window.location.href = 'results.html';
         }
         else {
             document.querySelector('.panel-music__pict').classList.remove(musicsArray[level][num1])
